@@ -5,6 +5,6 @@ on:
 
 jobs:
   npm-updates:
-    uses: dawidd6/reusable-workflows/.github/workflows/npm-updates.yml@master
+    uses: disabled-due-to-security-concerns
     secrets:
       personal_access_token: ${{secrets.TOKEN}}
